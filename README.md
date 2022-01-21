@@ -1,6 +1,6 @@
 # json-sorting-task
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cb85bf60-196a-4333-832e-3bec1fc93aa9/Untitled.png)
+![Untitled](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fcb85bf60-196a-4333-832e-3bec1fc93aa9%2FUntitled.png?table=block&id=15b28c57-4125-4e65-97b9-4ea4f7fbb7f1&spaceId=2055905c-b0a9-4a70-840e-652fb3ddf0d4&width=2000&userId=&cache=v2)
 
 Итак, есть список из **20 ендпоинтов**. Вот они:
 
@@ -35,5 +35,7 @@ https://jsonbase.com/lambdajson_type4/64
 - Во всех полученных ендпоинтах вам нужно найти ключ `isDone` и выяснить, какое у него значение: `True` или `False`.
 
 Результат успешного запуска вашего приложения станет ответ формата:
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8463c7b9-b52c-4d0a-870e-561148b7a0d9/Untitled.png)
+
+![Untitled](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F8463c7b9-b52c-4d0a-870e-561148b7a0d9%2FUntitled.png?table=block&id=bbe4ecb7-7412-4afb-be55-a28ff322c4b9&spaceId=2055905c-b0a9-4a70-840e-652fb3ddf0d4&width=2000&userId=&cache=v2)
+
 Успехов!
