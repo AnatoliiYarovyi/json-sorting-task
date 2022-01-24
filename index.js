@@ -13,8 +13,7 @@ async function getOllData() {
       console.log(count);
       getOllData();
       count++;
-    }
-    if (count === 3) {
+    } else {
       console.log(error);
     }
   }
@@ -35,6 +34,7 @@ const getArrIsDone = async (type) => {
     })
   );
 };
+
 const filterIsDone = (data) => {
   let isTrue = null;
   let isFalse = null;
