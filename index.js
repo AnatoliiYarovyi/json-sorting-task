@@ -1,7 +1,7 @@
 const axios = require("axios");
 const endPoints = require("./endPoints");
 
-let count = 0;
+let count = null;
 async function getOllData() {
   try {
     const arrIsDone = await getArrIsDone(endPoints);
