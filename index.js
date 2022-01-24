@@ -21,9 +21,9 @@ async function getOllData() {
 }
 
 const getArrIsDone = async (type) => {
-  const qwe = await Promise.all(
+  return await Promise.all(
     type.map(async (el) => {
-      const zxc = await axios.get(el).then((resp) => {
+      return await axios.get(el).then((resp) => {
         if (resp.data.isDone != undefined) {
           return resp.data.isDone;
         } else if (resp.data.location.isDone != undefined) {
@@ -32,10 +32,8 @@ const getArrIsDone = async (type) => {
           return resp.data.higherEducation.isDone;
         }
       });
-      return await zxc;
     })
   );
-  return await qwe;
 };
 const filterIsDone = (data) => {
   let isTrue = null;
